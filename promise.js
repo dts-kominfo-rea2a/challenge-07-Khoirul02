@@ -10,7 +10,7 @@ const promiseOutput = async (rate) => {
 }
 const countRate = (rate, films) => {
   const filterFilm = films.filter((film) => film.hasil === rate);
-  return filterFilm.lenght;
+  return filterFilm.length;
 }
 module.exports = {
   promiseOutput,
